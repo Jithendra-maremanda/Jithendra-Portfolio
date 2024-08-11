@@ -12,7 +12,10 @@ const Footer = () => {
       <div className="container mx-auto flex flex-wrap justify-between items-start">
         <div className="w-full md:w-1/4 p-4">
           <img src={logo} alt="Logo" className="mb-8 w-20" />
-          <p>Hello Visiter,Im Jithendra Maremanda,a web developer with expertise in ReactJs ,Flutter I created a portfolio to showcase my skills and projects ,aiming to secure a role in a leading IT Company.</p>
+          <p>
+            I’m Jithendra Maremanda, currently at Mashreq Global Services with 1.7+ years of experience in banking and tech.
+            Passionate about DevOps, Cloud Engineering, and automation, I work with AWS, GitHub Actions, Docker, and Linux to build scalable, modern infrastructure.
+            I'm open to DevOps, Cloud, or SRE roles—let’s build something great together!</p>
         </div>
         <div className="w-full md:w-1/6 p-4">
           <h3 className="relative mb-5">Home<div className="absolute top-6 left-0 w-full h-1 bg-gray-400"></div></h3>

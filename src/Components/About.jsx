@@ -14,22 +14,27 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10">
-        I am currently an Associate at Mashreq Global Services with a strong foundation in web development and a growing passion for cloud technologies. My skill set includes React.js, Flutter with Firebase, Python, building the user-friendly applications.
+        🚀 Hi, I’m Jithendra Maremanda — a tech enthusiast working at Mashreq Global Services with over 1.7 years of experience at the intersection of banking and technology.
+
+🌩️ I'm deeply passionate about DevOps, cloud computing, and crafting automated, scalable systems that drive efficiency and innovation.
         </p>
 
         <br />
 
         <p className="text-xl">
-        🛠 Technical Skills:
-React.js: Crafting interactive and efficient web applications.
-Flutter with Firebase: Developing cross-platform apps with real-time database capabilities.
+        🛠️ Tech Stack & Tools I Work With:
+Amazon Web Services (AWS): EC2, S3, IAM, CloudWatch, Lambda
+
+CI/CD Pipelines: GitHub Actions
+
+Containers: Docker
+
+Scripting & Version Control: Linux, Shell Scripting, Git
         </p>
         <br />
 
 <p className="text-xl">
-📈 Current Focus:
-Deepening my knowledge in AWS to enhance my ability to design scalable and reliable cloud solutions.
-Explore my portfolio and GitHub to see some of the exciting projects I've worked on. I'm always eager to connect with fellow professionals and explore new opportunities!
+✨ Through hands-on projects and continuous upskilling, I'm actively building a strong foundation in DevOps and Cloud Engineering. I love solving real-world problems by implementing automation, monitoring, and robust deployment pipelines.
 </p>
       </div>
     </div>

@@ -4,31 +4,40 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { Typewriter } from 'react-simple-typewriter';
 import '../App.css';
+
 const Home = () => {
-  const AnimatedText = <Typewriter
-    words={[' Jithendra', ' Web Developer', ' Freelancer']}
-    loop={true}
-    cursor
-    typeSpeed={70}
-    deleteSpeed={50}
-    delaySpeed={1000} />;
+  const AnimatedText = (
+    <Typewriter
+      words={[' Jithendra', ' DevOps Enthusiast', ' Cloud Explorer', 'SRE Aspirant']}
+      loop={true}
+      cursor
+      typeSpeed={70}
+      deleteSpeed={50}
+      delaySpeed={1000}
+    />
+  );
+
   return (
     <div
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 mx-auto"
     >
-      <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+        
+        {/* LEFT SIDE - Text */}
         <div className="flex flex-col justify-center h-full pt-20">
-        <div className="animated-text text-4xl sm:text-7xl font-bold  text-white max-w-sm">
-        I'm   <span className="text-4xl sm:text-7xl font-bold text-teal-300" >
-          {AnimatedText}
-      </span>
-        </div>
-        <div>
-        <p className="text-gray-500 py-4 max-w-md">
-        I am Jithendra Maremanda, a web developer skilled in React.js, Flutter with Firebase. I have created a portfolio website to showcase my projects and technical expertise, aiming to get hired by leading IT companies. Currently, I am expanding my knowledge in AWS to further enhance my capabilities in the tech industry.
+          <div className="animated-text text-4xl sm:text-7xl font-bold text-white max-w-sm">
+            I'm <span className="text-4xl sm:text-7xl font-bold text-teal-300">
+              {AnimatedText}
+            </span>
+          </div>
+
+          <p className="text-gray-500 py-4 max-w-md">
+            I’m Jithendra Maremanda, currently at Mashreq Global Services with 1.7+ years of experience in banking and tech.
+            Passionate about DevOps, Cloud Engineering, and automation, I work with AWS, GitHub Actions, Docker, and Linux to build scalable, modern infrastructure.
+            I'm open to DevOps, Cloud, or SRE roles—let’s build something great together!
           </p>
-        </div>
+
           <div>
             <Link
               to="Projects"
@@ -44,15 +53,16 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        {/* RIGHT SIDE - Avatar Image */}
+        <div className="pt-20 md:pt-0">
           <img
             src={HeroImage}
-            alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-70"
+            alt="Jithendra Avatar"
+            className="rounded-full mx-auto w-80 h-80 object-cover border-4 border-teal-400 shadow-lg"
           />
         </div>
       </div>
-      </div>
+    </div>
   );
 };
 
