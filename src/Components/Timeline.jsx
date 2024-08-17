@@ -1,11 +1,11 @@
 import React from 'react';
 
 const timelineData = [
-  { year: "2016", title: "SSC", description: "Paramita Learners' Foundation,Karimnagar,Telangana" },
-  { year: "2018", title: "Intermediate", description: "Sri Gayatri junior college,Karimnagar,Telangana" },
-  { year: "2022", title: "Bachelor of Technology", description: "SASI Institute of Technology & Engineering,Tadepalligudem,West Godavari" },
-  { year: "2022", title: "Intern as Front-End developer", description: "Atelia software company,Hyderabad,Telangana" },
-  { year: "2023", title: "Intern as Software Trainee ", description: "LegalCraft Solutions,Hyderabad,Telangana" },
+  { year: "2016", title: "SSC", description: "Paramita Learners' Foundation,Karimnagar,TS" },
+  { year: "2018", title: "Intermediate", description: "Sri Gayatri junior college,Karimnagar,TS" },
+  { year: "2022", title: "Bachelor of Technology", description: "SASI Institute of Technology & Engineering,Tadepalligudem, West Godavari,AP" },
+  { year: "2022", title: "Intern as Front-End developer", description: "Atelia software company,Hyderabad,TS" },
+  { year: "2023", title: "Intern as Software Trainee ", description: "LegalCraft Solutions,Hyderabad,TS" },
   { year: "2024", title: "Associate", description: "Mashreq Global Network - India,Bengaluru, Karnataka" },
 ];
 

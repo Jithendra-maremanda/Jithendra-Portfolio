@@ -66,7 +66,7 @@ const Projects = () => {
           <div id="default-WebDev-tab-content bg-gradient-to-r from-[#C33764] to-[#1D2671]">
             <TabContent id="WebDev-Projects" activeTab={activeTab}>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
-                <Card image={VRStore} title="VRStore" link1="" link2="https://github.com/Jithendra-maremanda/VR-Store" />
+                <Card image={VRStore} title="VRStore" link1="https://jithendra5651.ccbp.tech/" link2="https://github.com/Jithendra-maremanda/VR-Store" />
                 <Card image={BookHub} title="BookHub" link1="https://jithendra2000.ccbp.tech/login" link2="https://github.com/Jithendra-maremanda/Book-Hub" />
                 <Card image={FoodMunch} title="FoodMunch" link1="https://jithend3641321.ccbp.tech/" link2="https://github.com/Jithendra-maremanda/Food-Munch" />
                 <Card image={GuessNumber} title="GuessNumber" link1="https://jithendra46431.ccbp.tech/" link2="https://github.com/Jithendra-maremanda/Guess-number" />
