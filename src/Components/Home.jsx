@@ -2,8 +2,16 @@ import React from "react";
 import HeroImage from "../assets/heroImage.jpeg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import { Typewriter } from 'react-simple-typewriter';
 import '../App.css';
 const Home = () => {
+  const AnimatedText = <Typewriter
+    words={[' Jithendra', ' Web Developer', ' Freelancer']}
+    loop={true}
+    cursor
+    typeSpeed={70}
+    deleteSpeed={50}
+    delaySpeed={1000} />;
   return (
     <div
       name="home"
@@ -12,7 +20,9 @@ const Home = () => {
       <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full pt-20">
         <div className="animated-text text-4xl sm:text-7xl font-bold  text-white max-w-sm">
-        I'm a <span className="text-4xl sm:text-7xl font-bold text-amber-400"> Jithendra</span>
+        I'm   <span className="text-4xl sm:text-7xl font-bold text-teal-300" >
+          {AnimatedText}
+      </span>
         </div>
         <div>
         <p className="text-gray-500 py-4 max-w-md">
