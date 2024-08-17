@@ -10,8 +10,8 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 mx-auto"
     >
       <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-        <div className="animated-text text-4xl sm:text-7xl font-bold text-white max-w-sm">
+        <div className="flex flex-col justify-center h-full pt-20">
+        <div className="animated-text text-4xl sm:text-7xl font-bold  text-white max-w-sm">
         I'm a <span className="text-4xl sm:text-7xl font-bold text-amber-400"> Jithendra</span>
         </div>
         <div>

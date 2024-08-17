@@ -80,7 +80,7 @@ const Projects = () => {
             <TabContent id="flutter-projects" activeTab={activeTab}>
               {/* Content for Flutter Tab */}
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <Card
+                {/* <Card
                   image="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
                   title="Noteworthy technology acquisitions 2021"
                   link1="#"
@@ -91,7 +91,7 @@ const Projects = () => {
                   title="Noteworthy technology acquisitions 2021"
                   link1="#"
                   link2="#"
-                />
+                /> */}
                 {/* Add more Card components as needed */}
               </div>
             </TabContent>
